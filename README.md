@@ -29,3 +29,7 @@ pip install -r requirements.txt
 ## 5. chat_robot运行
 
 需要设置环境变量DASHSCOPE_API_KEY
+
+## 6.运行网址
+
+[https://snow-python.streamlit.app/](https://snow-python.streamlit.app/)
