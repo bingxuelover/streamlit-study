@@ -17,5 +17,5 @@ streamlit run app.py
 ## 3. langchain 使用
 
 ```bash
-pip install langchain
+pip install langchain langchain_community pydantic
 ```
