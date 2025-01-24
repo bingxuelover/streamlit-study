@@ -25,3 +25,7 @@ pip install langchain
 ```bash
 pip install -r requirements.txt
 ```
+
+## 5. chat_robot运行
+
+需要设置环境变量DASHSCOPE_API_KEY
