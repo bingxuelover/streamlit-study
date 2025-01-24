@@ -7,7 +7,12 @@ st.set_page_config(page_title='My Streamlit', page_icon='🧊')
 with st.sidebar:
     st.header('Sidebar')
     st.write('This is the sidebar')
-    st.button('Click me')
+    # 刷新页面
+    st.button('Refresh')
+    # 跳转页面, 会停止当前页面，跳转到指定页面
+    # st.switch_page('pages/user_profile.py')
+    # 停止页面
+    # st.stop()
 
 # 添加页面链接按钮，跳转到指定的页面
 st.page_link('app.py', label='View the code', icon='🌍')
@@ -16,12 +21,6 @@ st.page_link('pages/user_basic.py', label='View the basic')
 st.page_link('pages/user_text.py', label='View the text')
 st.page_link('pages/chat_robot.py', label='View the chat robot')
 
-# 刷新页面
-st.button('Refresh')
-# 跳转页面, 会停止当前页面，跳转到指定页面
-# st.switch_page('pages/user_profile.py')
-# 停止页面
-# st.stop()
 
 # 保存登录信息
 if 'username' not in st.session_state:
